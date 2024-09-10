@@ -1,0 +1,319 @@
+@font-face {
+    font-family: "Poppins regular";
+    src: url(/fonts/Poppins/Poppins-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Poppins Bold";
+    src: url(/fonts/Poppins/Poppins-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Poppins Medium";
+    src: url(/fonts/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: "Poppins Light";
+    src: url(/fonts/Poppins/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: "DMsans Medium";
+    src: url(/fonts/DMsans/static/DMSans-Medium.ttf);
+    font-weight: Medium;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Dmsans Regular";
+    src: url(/fonts/DMsans/static/DMSans-Regular.ttf);
+}
+
+html{
+   font-size: 18px;
+}
+body{
+    margin: 0px;
+    background-color: #FFFFFF;
+    font-family: "Poppins Bold";
+    color: #666666;
+    overflow-x: hidden;
+    
+}
+.landing_page{
+    margin-top: 2.27rem;
+    margin-left: 9%;
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 74.5%;
+}
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+}
+.a_container{
+    margin-right: 2.83rem;
+    width: 32.05rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.44rem;
+}
+.a_container {
+    font-family: "DMsans Medium";
+}
+.header_nav{ 
+    font-size: 1.11rem;
+}
+.social_container{
+    width: 7.2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.22rem;
+}
+.main_greeting_container{
+    display: flex;
+    width: 76%;
+    margin-top: 12.23rem;
+    justify-content: space-between;
+}
+.main_greeting_container_text{
+    font-size: 3.3rem;
+    width: 35.34rem;
+    text-align: left;
+    line-height: 70px;
+    letter-spacing: -1px;
+    color: #42446E;
+    margin-top: 2.5rem;
+}
+.main_greeting_container_photo{
+    border: 9px solid transparent;
+    border-radius: 100%;
+    background: linear-gradient(to bottom, rgba(231, 15, 170, 1), rgba(0, 192, 253, 1)) border-box;
+    width: 19.39rem;
+    height: 19.39rem;
+    margin-top: 0.55rem;
+}
+.active_colors{
+    background-image: linear-gradient(to right, #13B0F5 3%, #E70FAA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.tech_steck_container_block{
+    height: 20.44vw;
+    margin-top: 7.7778rem  ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-flow: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: start;
+}
+.tech_steck_container_block_elems_down{
+    align-self: end;
+}
+.tech_steck_container_block_elems{
+    display: flex;
+}
+.tech_steck_container{
+    margin-top: 18.33rem;
+    width:76.98%;
+} 
+h1{
+    color: #42446E;
+    font-size: 2.67rem;
+    line-height: 1.45rem;
+    text-align: center;
+}
+h2{
+    font-size: 1.78rem;
+    line-height: 1.45rem;
+    font-family: "Poppins regular";
+    text-align: center;
+    margin-top: 2.73rem;
+
+}
+h3{
+    color: #000000;
+    font-size: 1.556rem;
+    font-family: "Poppins Medium";
+    line-height: 1.445rem;
+    margin-top: 0px;
+    margin-bottom: 0.94445rem;
+}
+p{
+    color: #666666;
+    font-size: 1rem;
+    font-family: "Poppins Light";
+    line-height: 1.445rem;
+    margin-top: 0px;
+    margin-bottom: 0.666667rem;
+}
+.projects_cards_conatiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 3.44445rem;
+    justify-items: center;
+    margin-top: 5.333334rem;
+
+}
+.title_project_card_container{
+    padding: 1.27778rem 1.722223rem 1.38889rem 1.555556rem;
+}
+.title_project_card_container > span{
+    color: #42446E;
+    font-family: "Poppins Light";
+    font-size: 0.777778rem;
+}
+.project_card_right{
+    justify-self: right;
+}
+.project_card_left{
+    justify-self: left;
+}
+.project_container{
+    width: 76.98%;
+    margin-top: 11.88889rem;
+}
+.project_card{
+    width: 92%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
+    
+}
+.project_card_img{
+    width: 100%;
+    object-fit: cover;
+}
+.tech_focus{
+    font-family: "Poppins regular";
+    font-size: 0.88889rem;
+}
+.title_project_card_container_view{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1.166667rem;
+}
+.title_project_card_container_view_container{
+    display: flex;
+}
+.title_project_card_container_view_container > a:first-child{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.title_project_card_container_view_container a{
+    font-size: 0.8888889rem;
+    color: #000000;
+    font-family: "Poppins regular";
+    text-decoration: underline;
+    line-height: 1.445rem;
+}
+footer{
+    width: 76%;
+    margin-top: 11.27778rem;
+    color: #42446E;
+    margin-bottom: 3.27778rem;
+}
+.in_footer{
+    width: 34.278rem;
+}
+.footer_up{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.33334rem;
+}
+.contact_in_footer{
+    width: 20.7223rem;
+
+}
+.footer_down{
+    margin-top: 3.27778rem;
+}
+.designed_by_container{
+    color: #666666;
+    font-family: "Poppins regular";
+} 
+.designed_by_container span{
+    color: #666666;
+    background-image: linear-gradient(to right, #13B0F5 3%, #E70FAA);
+    -webkit-background-clip: text;
+}   
+.active_footer_span{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.a_in_footer{
+    font-family: "DMsans regular" !important;
+    font-size: 1rem;
+    color: #42446E;
+    text-decoration: none;
+}
+.a_animation:hover{
+    background-image: linear-gradient(to right, #13B0F5 3%, #E70FAA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+.a_animation{
+    transition: all 1s ease-out;
+    color: #666666;
+    text-decoration: none;
+}
+
+@media (max-width:1250px) and (min-width:100px){
+    html{
+        font-size: 14px;
+    }
+    .tech_steck_container_block{
+        height: auto;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .projects_cards_conatiner{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: center;
+        grid-auto-flow: column;
+
+    }
+    .project_card_left{
+        justify-self: auto;
+    }
+    .project_card_right{
+        justify-self: auto;
+    }
+    .a_in_header{
+        width: 27.05rem;
+        margin-right: 1.83rem;
+
+    }
+    header{
+        width: 83.5%;
+    }
+    .in_footer {
+        width: 31.278rem;;
+    }
+}
+@media (max-width:1250px) and (min-width:1130px){
+    html{
+        font-size: 14px;
+    }
+    
+}
+@media (max-width:1600px) and (min-width:1250px){
+    html{
+        font-size: 16px;
+    }
+}
+
+@media (min-width:1600px){
+    html{
+        font-size: 18px;
+    }
+}
